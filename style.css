@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap');
+
+* {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    background-image: url(/src/main.png);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.layout {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
+
+.main_text {
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 4em;
+}
+
+.expend {
+    z-index: 1;
+}
+
+.blue_text {
+    color: blue;
+}
+
+.sub_text {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    height: 200px;
+    background-color: #EDEDED;
+    font-weight: bold;
+}
+
+.text_1 {
+    margin: 120px;
+}
+
+.title_1 {
+    font-weight: bold;
+    font-size: 70px;
+    margin: 10px 0;
+}
+
+.sub_1 {
+    color: #979797;
+    font-size: 25px;
+}
+
+.text_2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 200px;
+}
+
+.sub_2 {
+    margin: auto 30px;
+    padding: 40px;
+    border-radius: 30px;
+    font-size: 30px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 13px 12px rgba(0, 0, 0, 0.22);
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.text_3 {
+    background-color: #EDEDED;
+    padding: 30px;
+}
+
+.text_4 {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+}
+
+.sub_3 {
+    color: #979797;
+}
+
+.title_2 {
+    font-size: 40px;
+}
