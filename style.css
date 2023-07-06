@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Inter:wght@400;700&family=Jua&display=swap');
 
 * {
     margin: 0;
@@ -31,11 +31,12 @@
 }
 
 .main_text {
-    font-size: 70px;
-    font-weight: bold;
+    font-size: 90px;
     position: relative;
     z-index: 2;
-    margin-bottom: 4em;
+    margin-bottom: 2.5em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
 }
 
 .expend {
@@ -56,6 +57,7 @@
     height: 200px;
     background-color: #EDEDED;
     font-weight: bold;
+    font-family: 'Inter', sans-serif;
 }
 
 .text_1 {
@@ -66,11 +68,13 @@
     font-weight: bold;
     font-size: 70px;
     margin: 10px 0;
+    font-family: 'Inter', sans-serif;
 }
 
 .sub_1 {
     color: #979797;
     font-size: 25px;
+    font-family: 'Inter', sans-serif;
 }
 
 .text_2 {
@@ -85,7 +89,8 @@
     border-radius: 30px;
     font-size: 30px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 13px 12px rgba(0, 0, 0, 0.22);
-    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
 }
 
 .text_3 {
@@ -105,4 +110,15 @@
 
 .title_2 {
     font-size: 40px;
+    font-weight: bold;
+    color: #505050;
+}
+
+.sub_4 {
+    margin: auto 30px;
+    padding: 40px;
+    border-radius: 30px;
+    font-size: 25px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 13px 12px rgba(0, 0, 0, 0.22);
+    font-family: 'Inter', sans-serif;
 }
